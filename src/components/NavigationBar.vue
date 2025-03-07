@@ -1,23 +1,16 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-
- const navigation = ref([
-    { name: 'Home', href: '/home' },
-    { name: 'About', href: '/about' },
-    { name: 'Contact', href: '/contact' },
-  ])
+  const navItems = ["Accueil","Produit", "A propos" , "Contact",];
 </script>
 
 <template>
-  <header class="py-4 border-b">
-    <nav class="flex container items-center">
-      <a href="" class="flex gap-1 items-center">
+  <header class="py-4 px-14">
+    <nav class="flex flex-center justify-between ">
+      <a href="" class="">
         <img class="w-14" src="/logo.png" alt="" />
-        <span class="text-3xl font-bold">Nuxtcipes</span>
       </a>
-      <ul class="flex gap-6 ml-auto text-xl font-bold capitalize">
-        <li>
-          <a href="">Home</a>
+      <ul class="flex flex-center space-x-4 ">
+        <li v-for="item in navItems" :key="item">
+          <a :href="'#' + item">{{ item }}</a>
         </li>
       </ul>
     </nav>
