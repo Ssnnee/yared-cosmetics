@@ -1,34 +1,83 @@
 <script setup lang="ts">
-import { FacebookIcon, TwitterIcon } from 'lucide-vue-next';
-import HelloWorld from './components/HelloWorld.vue'
+import NavigationBar from './components/NavigationBar.vue';
+import Footer from './components/Footer.vue';
+import ProductCard from './components/ProductCard.vue';
+import SectionSeparator from './components/SectionSeparator.vue';
+
 </script>
 
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
-  <p class="text-red-400"> Je suis rouge </p>
-  <FacebookIcon stroke-width="1" />
-  <TwitterIcon />
+  <NavigationBar />
+  <main class="flex flex-col justify-center items-center">
+    <section id="Accueil">
+      <div class="flex justify-center items-center flex-col lg:flex-row gap-12 my-10">
+        <div class="lg:w-2xl flex-1 lg:flex-initial flex flex-col gap-5 text-center lg:text-left">
+          <h1 class="text-4xl lg:text-6xl font-kaushan">
+            Natural product for the most efficient result
+          </h1>
+          <p class="lg:w-sm text-xl">
+            Pure ingredients, powerful results—nourish your hair the natural way.
+          </p>
+          <button class="w-xs p-4 bg-violet text-white rounded-lg"> More about us </button>
+        </div>
+        <div class="order-first lg:order-last">
+          <img src="/actor.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="Produit">
+      <SectionSeparator sectionTitle="Products" />
+      <div class="flex flex-wrap justify-center gap-4">
+        <ProductCard
+          caterory="Hair Care"
+          title="Shampoo"
+          description="Our shampoo is made with natural ingredients that will leave your hair feeling clean and refreshed."
+          price= 100
+          img="/chebe-oil.png"
+        />
+        <ProductCard
+          caterory="Hair Care"
+          title="Shampoo"
+          description="Our shampoo is made with natural ingredients that will leave your hair feeling clean and refreshed."
+          price= 100
+          img="clove-hair-tonic.png"
+        />
+        <ProductCard
+          caterory="Hair Care"
+          title="Shampoo"
+          description="Our shampoo is made with natural ingredients that will leave your hair feeling clean and refreshed."
+          price= 100
+          img="shampoon.png"
+        />
+      <ProductCard
+        caterory="Hair Care"
+        title="Shampoo"
+        description="Our shampoo is made with natural ingredients that will leave your hair feeling clean and refreshed."
+        price= 100
+        img="hair-traitment.png"
+      />
+      </div>
+    </section>
+    <section id="A propos" class="my-10">
+      <SectionSeparator sectionTitle="About" />
+      <div class="flex flex-col items-center">
+        <quote class="w-full text-center text-2xl">
+          “Natural does not kill”
+        </quote>
+      </div>
+      <div class="flex flex-col items-center gap-5">
+        <img src="/logo.png" alt="" class="w-72" />
+        <div class="flex items-center justify-between text-left w-1/2 gap-16">
+        <p class="">
+          Yared Cosmetics is a family-owned business that has been making natural hair care products for over 20 years.
+        </p>
+        <p class="">
+          Yared Cosmetics is a family-owned business that has been making natural hair care products for over 20 years.
+        </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <Footer />
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
