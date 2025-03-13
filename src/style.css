@@ -5,17 +5,21 @@
   --font-kaushan: 'Kaushan Script', cursive;
   --font-jetbrains: 'JetBrains Mono', monospace;
   --color-violet: oklch(51.97% 0.2148 320.54);
+  --color-border: hsl(var(--border));
+  --color-border-d: hsl(var(--border-d));
 }
 @layer base {
+  * {
+    @apply border-border;
+  }
+
   :root {
     --background: 0 0% 100%;
     --foreground: 224 71.4% 4.1%;
+    --border: 240 5.9% 90%;
+    --border-d: 215 27.9% 16.9%;
   }
 
-  .dark {
-    --background: 224 71.4% 4.1%;
-    --foreground: 210 20% 98%;
-  }
 }
 
 :root {
