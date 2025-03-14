@@ -10,8 +10,11 @@ defineProps<{ title: string, description: string, price: number, img: string }>(
     <h3 class="text-xl font-bold w-full">{{ title }}</h3>
     <p class="w-full">{{ description }}</p>
     <p class="w-full text-xl  font-bold"> Price : {{ price }} FCFA</p>
-    <button class="w-full cursor-pointer bg-violet text-white p-2 rounded-lg transform transition-all hover:scale-105">
-      Command
+    <button class="w-full flex items-center justify-center gap-3 cursor-pointer bg-violet text-white p-2 rounded-lg transform transition-all hover:scale-105">
+      <a href="" class="">
+        <img class="w-5" src="/icons/whatsapp-brands-light.svg" alt="Icons de whatsapp" />
+      </a>
+      <p> Commander </p>
     </button>
   </div>
 </template>
