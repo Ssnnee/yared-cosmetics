@@ -15,7 +15,7 @@ const isMenuOpen = ref(false);
       <!-- Desktop Menu -->
       <ul class="hidden md:flex space-x-6">
         <li v-for="item in navItems" :key="item">
-          <a :href="'#' + item" class="hover:text-gray-600">{{ item }}</a>
+          <a :href="'#' + item" class="hover:text-violet">{{ item }}</a>
         </li>
       </ul>
 
@@ -32,7 +32,7 @@ const isMenuOpen = ref(false);
       <ul class="flex flex-col space-y-4 p-4 shadow-lg">
         <li v-for="item in navItems" :key="item">
           <button @click="isMenuOpen = !isMenuOpen" class="cursor-pointer">
-            <a :href="'#' + item" class="hover:text-gray-600">{{ item }}</a>
+            <a :href="'#' + item" class="hover:text-violet">{{ item }}</a>
           </button>
         </li>
       </ul>
