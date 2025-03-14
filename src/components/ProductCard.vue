@@ -1,12 +1,11 @@
 <script setup lang="ts">
 
-defineProps<{ caterory?: string, title: string, description: string, price: number, img: string }>()
+defineProps<{ title: string, description: string, price: number, img: string }>()
 
 </script>
 
 <template>
   <div class="w-xs space-y-3 shadow-lg dark:shadow-none dark:border dark:border-border-d rounded-lg flex flex-col items-center p-8 ">
-    <h2 class="text-2xl w-full font-bold">{{ caterory }}</h2>
     <img :src="img" :alt="'picture of' + title" class="w-1/2" />
     <h3 class="text-xl font-bold w-full">{{ title }}</h3>
     <p class="w-full">{{ description }}</p>

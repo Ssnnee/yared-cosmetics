@@ -16,11 +16,11 @@ import SectionSeparator from './components/SectionSeparator.vue';
             Natural product for the most efficient result
           </h1>
           <p class="lg:w-sm text-xl">
-            Pure ingredients, powerful results—nourish your hair the natural way.
+            Ingrédients purs, résultats puissants. Nourrissez vos cheveux de manière naturelle.
           </p>
           <a href="#A propos">
             <button class="w-xs bg-violet text-white p-2 rounded-lg cursor-pointer transform transition-all hover:scale-105">
-              More about us
+              En savoir plus
             </button>
           </a>
         </div>
@@ -30,34 +30,30 @@ import SectionSeparator from './components/SectionSeparator.vue';
       </div>
     </section>
     <section id="Produit">
-      <SectionSeparator sectionTitle="Products" />
+      <SectionSeparator sectionTitle="Hair Products" />
       <div class="flex flex-wrap justify-center gap-4">
         <ProductCard
-          caterory="Hair Care"
-          title="Shampoo"
+          title="Chebe Oil"
           description="Our shampoo is made with natural ingredients that will leave your hair feeling clean and refreshed."
-          :price= 100
+          :price= 2500
           img="/chebe-oil.png"
         />
         <ProductCard
-          caterory="Hair Care"
-          title="Shampoo"
+          title="Hair Tonic Spray"
           description="Our shampoo is made with natural ingredients that will leave your hair feeling clean and refreshed."
-          :price= 100
+          :price= 2000
           img="clove-hair-tonic.png"
         />
         <ProductCard
-          caterory="Hair Care"
-          title="Shampoo"
+          title="Natural Shampoo"
           description="Our shampoo is made with natural ingredients that will leave your hair feeling clean and refreshed."
-          :price= 100
+          :price= 4000
           img="shampoon.png"
         />
         <ProductCard
-          caterory="Hair Care"
-          title="Shampoo"
+          title="Hair Traitment"
           description="Our shampoo is made with natural ingredients that will leave your hair feeling clean and refreshed."
-          :price= 100
+          :price= 2500
           img="hair-traitment.png"
         />
       </div>
