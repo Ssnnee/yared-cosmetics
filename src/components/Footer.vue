@@ -12,7 +12,7 @@
       </hr>
     </div>
   </div>
-  <footer className="flex items-center justify-between px-14 m-2">
+  <footer id="Contact" className="flex items-center justify-between px-14 m-2">
     <p>© {{ new Date().getFullYear() }} Yared Cosmetecs</p>
     <div class="flex items-center space-x-4 dark:hidden">
       <a href="" class="">
