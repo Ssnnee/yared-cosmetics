@@ -18,16 +18,13 @@
       <a href="" class="">
         <img class="w-5" src="/icons/envelope-regular.svg" alt="Icons de mail" />
       </a>
-      <a href="" class="">
+      <a href="https://www.instagram.com/yaredcosmetics" class="">
         <img class="w-5" src="/icons/instagram-brands.svg" alt="Icons de instagram" />
       </a>
-      <a href="" class="">
+      <a href="https://wa.me/242053782440" class="">
         <img class="w-5" src="/icons/whatsapp-brands.svg" alt="Icons de whatsapp" />
       </a>
-      <a href="" class="">
-        <img class="w-5" src="/icons/tiktok-brands.svg" alt="Icons de tiktok" />
-      </a>
-      <a href="" class="">
+      <a href="https://www.facebook.com/share/195bMy9xWJ/?mibextid=wwXIfr" class="">
         <img class="w-5" src="/icons/facebook-brands.svg" alt="Icons de facebook" />
       </a>
     </div>
@@ -37,16 +34,13 @@
       <a href="" class="">
         <img class="w-5" src="/icons/envelope-regular-light.svg" alt="Icons de mail" />
       </a>
-      <a href="" class="">
+      <a href="https://www.instagram.com/yaredcosmetics" class="">
         <img class="w-5" src="/icons/instagram-brands-light.svg" alt="Icons de instagram" />
       </a>
-      <a href="" class="">
+      <a href="https://wa.me/242053782440" class="">
         <img class="w-5" src="/icons/whatsapp-brands-light.svg" alt="Icons de whatsapp" />
       </a>
-      <a href="" class="">
-        <img class="w-5" src="/icons/tiktok-brands-light.svg" alt="Icons de tiktok" />
-      </a>
-      <a href="" class="">
+      <a href="https://www.facebook.com/share/195bMy9xWJ/?mibextid=wwXIfr" class="">
         <img class="w-5" src="/icons/facebook-brands-light.svg" alt="Icons de facebook" />
       </a>
     </div>
