@@ -13,7 +13,7 @@
     </div>
   </div>
   <footer id="Contact" className="flex items-center justify-between px-14 m-2">
-    <p>© {{ new Date().getFullYear() }} Yared Cosmetecs</p>
+    <p class="text-xs">© {{ new Date().getFullYear() }} Yared Cosmetecs</p>
     <div class="flex items-center space-x-4 dark:hidden">
       <a href="" class="">
         <img class="w-5" src="/icons/envelope-regular.svg" alt="Icons de mail" />
@@ -30,7 +30,7 @@
     </div>
 
       <!-- For the dark mode -->
-    <div class="dark:flex items-center space-x-4 hidden">
+    <div class="dark:flex items-center space-x-2 lg:space-x-4 hidden">
       <a href="" class="">
         <img class="w-5" src="/icons/envelope-regular-light.svg" alt="Icons de mail" />
       </a>
