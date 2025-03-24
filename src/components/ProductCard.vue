@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-defineProps<{ title: string, description: string, price: number, img: string }>()
+defineProps<{ title: string, description: string, price: number, img: string, url: string }>()
 
 </script>
 
@@ -14,7 +14,9 @@ defineProps<{ title: string, description: string, price: number, img: string }>(
       <a href="" class="">
         <img class="w-5" src="/icons/whatsapp-brands-light.svg" alt="Icons de whatsapp" />
       </a>
-      <p> Commander </p>
+      <a :href="url">
+        <p> Commander </p>
+      </a>
     </button>
   </div>
 </template>

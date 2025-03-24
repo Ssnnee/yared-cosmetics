@@ -37,24 +37,28 @@ import SectionSeparator from './components/SectionSeparator.vue';
           description="Our shampoo is made with natural ingredients that will leave your hair feeling clean and refreshed."
           :price= 2500
           img="/chebe-oil.png"
+          url="https://wa.me/p/28794389326842425/242053782440"
         />
         <ProductCard
           title="Hair Tonic Spray"
           description="Our shampoo is made with natural ingredients that will leave your hair feeling clean and refreshed."
           :price= 2000
           img="clove-hair-tonic.png"
+          url="https://wa.me/p/9358370687544442/242053782440"
         />
         <ProductCard
           title="Natural Shampoo"
           description="Our shampoo is made with natural ingredients that will leave your hair feeling clean and refreshed."
           :price= 4000
           img="shampoon.png"
+          url="https://wa.me/p/9594573337261297/242053782440"
         />
         <ProductCard
           title="Hair Traitment"
           description="Our shampoo is made with natural ingredients that will leave your hair feeling clean and refreshed."
           :price= 2500
           img="hair-traitment.png"
+          url="https://wa.me/p/9666309590097738/242053782440"
         />
       </div>
     </section>
